@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> Boats Delete </h2>
+
+        <form method="post" action="http://localhost/labdata/Boats/deleteTest.php">
+            <label for="_bid">Boat ID to Delete:</label><br>
+            <input type="text" id="_bid" name="_bid" placeholder="Enter Boat ID to Delete"><br>
+            <!-- Add a confirmation message (optional) -->
+            <p>Are you sure you want to delete the boat with the specified details?</p>
+
+            <!-- Add a confirmation checkbox (optional) -->
+            <label for="confirmDelete">Yes, I am sure:</label>
+            <input type="checkbox" id="confirmDelete" name="confirmDelete" required><br>
+
+            <!-- Add a submit button for the delete operation -->
+            <input type="submit" value="Delete">
+        </form>
+        <br><br>
+        <a href="http://localhost/labdata/homepage/BMenu.html">back</a>
+        <link rel="stylesheet" href="delet.css">
+    </body>
+</html>
